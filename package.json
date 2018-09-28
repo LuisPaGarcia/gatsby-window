@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-window",
+  "version": "1.0.0",
+  "description": "A window usage on gatsby app",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisPaGarcia/gatsby-window.git"
+  },
+  "keywords": [
+    "window",
+    "gatsby",
+    "gatsby-window",
+    "undefined"
+  ],
+  "author": "Luispa Garcia (https://luispa.im)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisPaGarcia/gatsby-window/issues"
+  },
+  "homepage": "https://github.com/LuisPaGarcia/gatsby-window#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^23.6.0",
+    "watch": "^1.0.2"
+  }
+}
