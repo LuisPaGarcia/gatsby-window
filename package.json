@@ -1,6 +1,6 @@
 {
   "name": "gatsby-window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A window usage on gatsby app",
   "main": "build/index.js",
   "scripts": {
