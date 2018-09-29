@@ -8,7 +8,7 @@ or
 $ yarn add gatsby-window
 ```
 
-###Import usage
+### Import usage
 
 ```javascript
 import { windowGatsby } from "gatsby-window" 
